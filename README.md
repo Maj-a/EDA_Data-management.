@@ -1,11 +1,22 @@
-# EDA_Data-management.
-Exploratory Data Analysis -> Data Management -> Data Inspection  This stage involves reviewing the data within your environment. I call it a “getting to know the data” phase, where you examine the number and types of variables (columns) and observations (rows) to understand the data structure.
+# EDA_Data-management -> Data Inspection.
+Exploratory Data Analysis -> Data Management -> Data Inspection 
+This stage involves reviewing the data within your environment. I call it a “getting to know the data” phase, where you examine the number and types of variables (columns) and observations (rows) to understand the data structure.
 
 ## Background: 
 The data for analysis is a Glassdoor Gender Pay Gap data obtained from Kaggle in which base pay and bonus, seniority, education level/type and gender information are provided for each employee, the job titles and departments are also included.
 Link to the data set as accessed on the 04.07.2024: https://www.kaggle.com/datasets/nilimajauhari/glassdoor-analyze-gender-pay-gap/data 
 (The reason why the link has not been provided as a hyperlink is to be transparent about the source of the data & security.)
 
+## Here's what we'll explore in this project: 
+1. **Import the Data:** We'll start by bringing in the Glassdoor Gender Pay Gap data, which we'll call GPGdata.
+2. **Initial Data Check:** We'll examine the number of rows and columns to understand the size of the data.
+3. **Sneak Peek:** Let's take a look at the first 10 and last 5 rows of the dataset.
+4. **Data Summary:** We'll summarize all the variables, checking for any missing or duplicated data.
+5. **Salary Insights:** We'll find out who earns the top 5 and bottom 5 salaries based on BasePay.
+6. **Sum It Up:** We'll calculate the total BasePay for each department.
+7. **Focused Subset:** We'll create a subset of employees in the Management Department with a BasePay of $60,000 or less, keeping variables like Bonus, Seniority, Education, and Gender.
+7. **Exporting Results:** Finally, we'll save this subset as an Excel file.
+## Ready to dive in? Just keep scrolling! 
 ### 0. Import packages and libraries
 'library(dplyr)'
 
