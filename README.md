@@ -1,7 +1,7 @@
 # EDA_Data-management.
 Exploratory Data Analysis -> Data Management -> Data Inspection  This stage involves reviewing the data within your environment. I call it a “getting to know the data” phase, where you examine the number and types of variables (columns) and observations (rows) to understand the data structure.
-## Background: 
 
+## Background: 
 The data for analysis is a Glassdoor Gender Pay Gap data obtained from Kaggle in which base pay and bonus, seniority, education level/type and gender information are provided for each employee, the job titles and departments are also included.
 Link to the data set as accessed on the 04.07.2024: https://www.kaggle.com/datasets/nilimajauhari/glassdoor-analyze-gender-pay-gap/data 
 (The reason why the link has not been provided as a hyperlink is to be transparent about the source of the data & security.)
