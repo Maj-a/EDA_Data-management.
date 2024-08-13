@@ -197,11 +197,11 @@ countGPG_below_60_2
 
 #### --> Observation: There are 13 Managers who earn BasePay below 60 000 per year. 
 
-### 8. Export the subsetted data into an xlsx file.```r
-'write.xlsx(GPG_below_60_2, 'C:\\Users\\Maja\\Desktop\\output.xlsx', colNames=TRUE)
+### 8. Export the subsetted data into an xlsx file.
+```r
+write.xlsx(GPG_below_60_2, 'C:\\Users\\Maja\\Desktop\\output.xlsx', colNames=TRUE)
 ```
-
-#### another way: 
+##### another way: 
 ```r
 write.xlsx(GPG_below_60_2,file.choose())
 ```
